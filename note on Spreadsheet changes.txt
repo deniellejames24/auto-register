@@ -1,0 +1,5 @@
+note on Status and Password columns of user Account listed
+
+if Status Blank = Login Unsuccesful (Invalid Email or Password) SKIPPED
+if Status OK but Password not changed = Login Successful but Onboard Training > Training Status is "Ongoing"
+if Status OK and Password has changed to "123Qwe" = Login Succesful and Training Statuts is "Passed"
